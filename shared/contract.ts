@@ -17,4 +17,12 @@ export type Product = {
 export const products: readonly Product[] = [
   { id: "p1", name: "Tea & Coffee", stock: 3 },
   { id: "p2", name: "Mug <blue>", stock: 2 },
+  { id: "p3", name: "Cadbury Dairy Milk", stock: 10 },
+  { id: "p4", name: "Snickers", stock: 10 },
+  { id: "p5", name: "Kit Kat", stock: 10 },
+  { id: "p6", name: "Walkers Cheese & Onion Crisps", stock: 10 },
+  { id: "p7", name: "Lay's Classic Potato Chips", stock: 10 },
+  { id: "p8", name: "Doritos Nacho Cheese", stock: 10 },
+  { id: "p9", name: "Smartphone USB-C Charger", stock: 5 },
+  { id: "p10", name: "USB-C Cable", stock: 5 },
 ];

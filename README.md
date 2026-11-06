@@ -43,6 +43,24 @@ than redefining the data. Changing stock, names, or shape is a **contract
 change**: you edit `shared/`, accept it, then release the consumers to adopt it.
 That is the dependency gate the tutorials teach.
 
-Sample fixture: `p1` "Tea & Coffee" stock 3, `p2` "Mug <blue>" stock 2.
+The complete ten-product fixture is included in the clone. Students do not need
+to create it or enter product data before starting their agents.
+
+| ID | Product | Stock |
+|---|---|---:|
+| `p1` | Tea & Coffee | 3 |
+| `p2` | Mug &lt;blue&gt; | 2 |
+| `p3` | Cadbury Dairy Milk | 10 |
+| `p4` | Snickers | 10 |
+| `p5` | Kit Kat | 10 |
+| `p6` | Walkers Cheese & Onion Crisps | 10 |
+| `p7` | Lay's Classic Potato Chips | 10 |
+| `p8` | Doritos Nacho Cheese | 10 |
+| `p9` | Smartphone USB-C Charger | 5 |
+| `p10` | USB-C Cable | 5 |
+
+Initial report: **10 products, total stock 75**. The tutorial's later contract
+change updates only `p2` stock from 2 to 4, producing **10 products, total stock 77**.
+
 `Mug <blue>` deliberately contains HTML-like characters so consumers must render
 names literally (e.g. via `textContent`), not as markup.
